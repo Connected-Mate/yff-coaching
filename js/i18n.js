@@ -265,6 +265,17 @@ function applyTranslations(lang) {
     const flag = document.getElementById('langFlag');
     if (flag) flag.textContent = lang === 'fr' ? 'FR' : 'EN';
 
+    // Update modal texts
+    const modalTranslations = {
+        en: { title: "Get In Touch", sub: "Choose how you'd like to reach me", wa: "Send me a message" },
+        fr: { title: "Me Contacter", sub: "Choisis comment tu veux me joindre", wa: "Envoie-moi un message" }
+    };
+    const mt = modalTranslations[lang] || modalTranslations.en;
+    document.querySelectorAll('[data-i18n-modal]').forEach(el => {
+        const key = el.getAttribute('data-i18n-modal');
+        if (mt[key]) el.textContent = mt[key];
+    });
+
     localStorage.setItem('yff-lang', lang);
 }
 

@@ -94,6 +94,43 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // --- Contact Modal ---
+    const modal = document.getElementById('contactModal');
+    const modalClose = document.getElementById('modalClose');
+
+    function openContact(e) {
+        if (e) e.preventDefault();
+        modal.classList.add('active');
+        modal.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeContact() {
+        modal.classList.remove('active');
+        modal.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+    }
+
+    document.querySelectorAll('.open-contact').forEach(btn => {
+        btn.addEventListener('click', openContact);
+    });
+
+    if (modalClose) modalClose.addEventListener('click', closeContact);
+
+    // Close on overlay click
+    if (modal) {
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) closeContact();
+        });
+    }
+
+    // Close on Escape key
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modal.classList.contains('active')) {
+            closeContact();
+        }
+    });
+
     // --- Scroll Animations (Intersection Observer) ---
     const scrollObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {

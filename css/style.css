@@ -1040,10 +1040,10 @@ section {
 }
 
 .cert-item {
-    background: rgba(255, 255, 255, 0.06);
+    background: rgba(255, 255, 255, 0.95);
     border: 1px solid var(--border-color);
     border-radius: var(--radius-md);
-    padding: 12px 20px;
+    padding: 16px 24px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1051,21 +1051,18 @@ section {
 }
 
 .cert-item:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: #ffffff;
     border-color: var(--border-light);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-sm);
 }
 
 .cert-item img {
-    height: 40px;
+    height: 45px;
     width: auto;
-    max-width: 160px;
+    max-width: 170px;
     object-fit: contain;
-    filter: brightness(0) invert(0.85);
     transition: var(--transition);
-}
-
-.cert-item:hover img {
-    filter: brightness(0) invert(1);
 }
 
 /* --- CTA Section --- */
@@ -1424,6 +1421,166 @@ section {
     border-color: var(--accent);
     color: white;
     transform: translateY(-3px);
+}
+
+/* --- Contact Modal --- */
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    padding: 24px;
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal {
+    background: var(--bg-section);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-xl);
+    padding: 48px 40px 40px;
+    max-width: 420px;
+    width: 100%;
+    position: relative;
+    transform: translateY(20px) scale(0.96);
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6);
+}
+
+.modal-overlay.active .modal {
+    transform: translateY(0) scale(1);
+}
+
+.modal-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 36px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    color: var(--text-secondary);
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+    line-height: 1;
+}
+
+.modal-close:hover {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: white;
+}
+
+.modal-logo {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.modal-logo img {
+    width: 60px;
+    margin: 0 auto;
+}
+
+.modal h3 {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.modal .modal-sub {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin-bottom: 28px;
+}
+
+.modal-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.modal-link {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 16px 20px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    color: var(--text-primary);
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: var(--transition);
+    text-decoration: none;
+}
+
+.modal-link:hover {
+    border-color: var(--accent);
+    transform: translateX(6px);
+    background: var(--bg-card-hover);
+}
+
+.modal-link-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.modal-link-icon svg {
+    width: 22px;
+    height: 22px;
+}
+
+.modal-link-icon.instagram {
+    background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    color: white;
+}
+
+.modal-link-icon.whatsapp {
+    background: #25D366;
+    color: white;
+}
+
+.modal-link-icon.website {
+    background: var(--gradient-accent);
+    color: white;
+}
+
+.modal-link span {
+    color: var(--text-muted);
+    font-size: 0.75rem;
+    font-weight: 400;
+    display: block;
+    margin-top: 2px;
+}
+
+@media (max-width: 480px) {
+    .modal {
+        padding: 36px 24px 28px;
+        border-radius: var(--radius-lg);
+    }
 }
 
 /* --- Accessibility --- */
