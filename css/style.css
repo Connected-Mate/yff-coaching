@@ -1040,8 +1040,8 @@ section {
 }
 
 .cert-item {
-    background: #ffffff;
-    border: 1px solid rgba(255, 255, 255, 0.15);
+    background-color: #fff !important;
+    border: none;
     border-radius: var(--radius-md);
     padding: 16px 24px;
     display: flex;
@@ -1051,10 +1051,8 @@ section {
 }
 
 .cert-item:hover {
-    background: #ffffff;
-    border-color: rgba(255, 255, 255, 0.3);
     transform: translateY(-2px);
-    box-shadow: var(--shadow-sm);
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.15);
 }
 
 .cert-item img {
@@ -1495,7 +1493,9 @@ section {
 .modal-logo img {
     width: 60px;
     margin: 0 auto;
-    border-radius: var(--radius-md);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 0 0 1px var(--border-color);
 }
 
 .modal h3 {
