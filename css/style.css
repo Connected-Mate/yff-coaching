@@ -2199,6 +2199,25 @@ ol.blog-list li::before {
         flex-direction: row;
         align-items: center;
     }
+
+    /* Keep "Choose This Plan" button on one line */
+    .program-card .btn-full,
+    .program-card .btn {
+        white-space: nowrap;
+        font-size: 0.75rem;
+        padding: 12px 16px;
+        letter-spacing: 0.5px;
+    }
+
+    /* Center footer logo on mobile */
+    .footer-brand {
+        text-align: center;
+    }
+
+    .footer-logo-img {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 /* Small tablet / large phone */
