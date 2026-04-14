@@ -15,7 +15,7 @@ const translations = {
         "nav.contact": "Contact Me",
 
         // Hero
-        "hero.subtitle": "Personal Trainer \u2022 Calgary",
+        "hero.subtitle": "Coach Sportif \u2022 France",
         "hero.line1": "TRANSFORM",
         "hero.line2": 'YOUR <em class="text-accent">BODY</em>',
         "hero.line3": "YOUR LIFE",
@@ -49,55 +49,61 @@ const translations = {
         "personal.f2.desc": "Programs adapted to your body and goals",
         "personal.f3.title": "Real Results",
         "personal.f3.desc": "Track your progress with measurable outcomes",
-        "personal.location": "At your home, outdoors, or at the gym in Calgary",
-
-        // Pricing
-        "pricing.tag": "Investment",
-        "pricing.title": 'Simple <em class="text-accent">Pricing</em>',
-        "pricing.weekly.title": "Weekly",
-        "pricing.weekly.sub": "Pay as you go",
-        "pricing.1session": "1 session/week",
-        "pricing.2sessions": "2 sessions/week",
-        "pricing.save5": "Save $5",
-        "pricing.bestvalue": "Best Value",
-        "pricing.packages.title": "Packages",
-        "pricing.packages.sub": "Commit & save",
-        "pricing.5sessions": "5 sessions",
-        "pricing.10sessions": "10 sessions",
-        "pricing.bestdeal": "Best Deal",
-        "pricing.cta": "Get Started",
+        "personal.location": "At your home, outdoors, or at the gym in France",
 
         // Group
         "group.tag": "Train Together",
         "group.title": 'Group <em class="text-accent">Training</em>',
-        "group.lead": "Immerse yourself in an intense and motivating group training experience in Calgary.",
+        "group.lead": "Immerse yourself in an intense and motivating group training experience.",
         "group.p1": "With experience in Small Group Training at brands like Keep Cool, Metabolik and F45, plus Team Building work with companies such as Herm\u00e8s, I bring energy and structure to every session.",
         "group.cta": "Book a Group Session",
+        "group.custom.title": "Custom Group",
+        "group.custom.location": "At home / Outdoors / Gym",
+        "group.custom.per": "/person/session",
+        "group.custom.note": "Minimum 4 people",
+        "group.hyrox.level": "All levels",
+        "group.hyrox.per": "/person",
+        "group.hyrox.location": "Prairie des Filtres",
+        "group.hyrox.schedule": "Every Wednesday at 6:30 PM",
+        "group.hyrox.note": "Max 12 people \u2014 Registration required",
 
         // Programs
-        "programs.tag": "Custom Plans",
+        "programs.tag": "Online Coaching",
         "programs.title": 'Training <em class="text-accent">Programs</em>',
-        "programs.desc": "You don't know what to do to achieve your goals? Get a 100% personalized training program for weight loss, fitness, or muscle development.",
-        "programs.plan1.title": "Essential Plan",
-        "programs.plan1.freq": "1-3 sessions / week",
-        "programs.plan2.label": "Most Complete",
-        "programs.plan2.title": "Intensive Plan",
-        "programs.plan2.freq": "4-6 sessions / week",
-        "programs.f1": "100% personalized program",
-        "programs.f2": "6-day weekly monitoring",
-        "programs.f3": "Nutrition guidance",
-        "programs.f4": "Unlimited program adjustments",
-        "programs.f5": "Weekly recaps",
-        "programs.f6": "Full nutrition plan",
-        "programs.f7": "Weekly recaps & check-ins",
-        "programs.getPlan": "Get This Plan",
+        "programs.desc": "Get a 100% personalized training program tailored to your goals \u2014 whether it's HYROX performance, weight loss, muscle building, or competition preparation.",
+        "programs.hyrox.title": "HYROX Online Coaching",
+        "programs.duration.1monthTrial": "1 Month (trial)",
+        "programs.duration.1monthTrialOnly": "1 Month (trial only)",
+        "programs.duration.1month": "1 Month",
+        "programs.duration.3months": "3 Months",
+        "programs.duration.6months": "6 Months",
+        "programs.hyrox.f1": "Coaching application",
+        "programs.hyrox.f2": "Fully personalized to your needs and availability",
+        "programs.hyrox.f3": "Daily communication 6/7 days",
+        "programs.hyrox.f4": "Complete assessment of previous race weaknesses and objectives",
+        "programs.hyrox.f5": "Race data analysis to know where to focus",
+        "programs.hyrox.f6": "Bi-weekly call for program recap and adaptation",
+        "programs.hyrox.f7": "Race map analysis + precise race plan",
+        "programs.hyrox.f8": "Access to YFF ACADEMY community group (worldwide HYROX athletes)",
+        "programs.hyrox.f9": "Nutrition recommendations",
+        "programs.hyrox.f10": "Monthly test to track progress",
+        "programs.hyrox.f11": "Unlimited plan modifications (holidays / illness)",
+        "programs.cta": "Get Started",
+        "programs.online.title": "Online Programming",
+        "programs.online.badge": "Fitness / Weight Loss / Muscle / Competition Prep",
+        "programs.online.plan1.freq": "1 to 3 sessions/week",
+        "programs.online.plan1.desc": "Chat 7/7 + Nutrition + Unlimited modifications",
+        "programs.online.plan2.label": "Most Complete",
+        "programs.online.plan2.freq": "4 to 7 sessions/week",
+        "programs.online.plan2.desc": "Chat 7/7 + Nutrition advice + Unlimited modifications",
+        "programs.choosePlan": "Choose This Plan",
 
         // About
         "about.tag": "Who Am I?",
         "about.lead": "A coach driven by passion for fitness and well-being.",
         "about.p1": "I've loved sports since I was young, and that passion led me to study and work in the field of physical performance and sports coaching.",
         "about.p2": "I studied Sports Science (STAPS) with a specialization in Sports Training and Performance Optimization, then pursued a Bachelor's degree in Fitness Professions. I've worked for nearly four years as a coach in gyms and at home.",
-        "about.p3": "Now based in Calgary, I'm here to help you reach your full potential.",
+        "about.p3": "Now based in France, I'm here to help you reach your full potential.",
         "about.certs": "Certifications & Education",
 
         // CTA
@@ -106,7 +112,7 @@ const translations = {
         "cta.contact": "Contact Me Now",
 
         // Footer
-        "footer.tagline": "Personal Trainer in Calgary<br>Fitness & Conditioning Coaching",
+        "footer.tagline": "Coach Sportif en France<br>Fitness & Conditioning Coaching",
         "footer.quicklinks": "Quick Links",
         "footer.getintouch": "Get In Touch"
     },
@@ -122,7 +128,7 @@ const translations = {
         "nav.contact": "Me Contacter",
 
         // Hero
-        "hero.subtitle": "Coach Sportif \u2022 Calgary",
+        "hero.subtitle": "Coach Sportif \u2022 France",
         "hero.line1": "TRANSFORME",
         "hero.line2": 'TON <em class="text-accent">CORPS</em>',
         "hero.line3": "TA VIE",
@@ -156,55 +162,61 @@ const translations = {
         "personal.f2.desc": "Programmes adapt\u00e9s \u00e0 ton corps et tes objectifs",
         "personal.f3.title": "R\u00e9sultats Concrets",
         "personal.f3.desc": "Suis ta progression avec des r\u00e9sultats mesurables",
-        "personal.location": "\u00C0 domicile, en ext\u00e9rieur ou en salle \u00e0 Calgary",
-
-        // Pricing
-        "pricing.tag": "Tarifs",
-        "pricing.title": 'Tarifs <em class="text-accent">Simples</em>',
-        "pricing.weekly.title": "Hebdomadaire",
-        "pricing.weekly.sub": "Sans engagement",
-        "pricing.1session": "1 s\u00e9ance/semaine",
-        "pricing.2sessions": "2 s\u00e9ances/semaine",
-        "pricing.save5": "\u00C9conomise 5$",
-        "pricing.bestvalue": "Meilleur Rapport",
-        "pricing.packages.title": "Forfaits",
-        "pricing.packages.sub": "Engage-toi & \u00e9conomise",
-        "pricing.5sessions": "5 s\u00e9ances",
-        "pricing.10sessions": "10 s\u00e9ances",
-        "pricing.bestdeal": "Meilleure Offre",
-        "pricing.cta": "C'est Parti !",
+        "personal.location": "\u00C0 domicile, en ext\u00e9rieur ou en salle en France",
 
         // Group
         "group.tag": "En Groupe",
         "group.title": 'Cours <em class="text-accent">Collectifs</em>',
-        "group.lead": "Plonge dans une exp\u00e9rience d'entra\u00eenement collectif intense et motivante \u00e0 Calgary.",
+        "group.lead": "Plonge dans une exp\u00e9rience d'entra\u00eenement collectif intense et motivante.",
         "group.p1": "Fort de mon exp\u00e9rience en Small Group Training chez Keep Cool, Metabolik et F45, ainsi qu'en Team Building pour des entreprises comme Herm\u00e8s, j'apporte \u00e9nergie et structure \u00e0 chaque s\u00e9ance.",
         "group.cta": "R\u00e9server un Cours",
+        "group.custom.title": "Sur Mesure",
+        "group.custom.location": "\u00C0 domicile / En ext\u00e9rieur / En salle",
+        "group.custom.per": "/personne/s\u00e9ance",
+        "group.custom.note": "Minimum 4 personnes",
+        "group.hyrox.level": "Tous niveaux",
+        "group.hyrox.per": "/personne",
+        "group.hyrox.location": "Prairie des Filtres",
+        "group.hyrox.schedule": "Tous les mercredis \u00e0 18h30",
+        "group.hyrox.note": "Maximum 12 personnes \u2014 Inscription au pr\u00e9alable",
 
         // Programs
-        "programs.tag": "Plans Personnalis\u00e9s",
+        "programs.tag": "Coaching en Ligne",
         "programs.title": 'Programmes <em class="text-accent">d\'Entra\u00eenement</em>',
-        "programs.desc": "Tu ne sais pas quoi faire pour atteindre tes objectifs ? Obtiens un programme 100% personnalis\u00e9 pour la perte de poids, le fitness ou le d\u00e9veloppement musculaire.",
-        "programs.plan1.title": "Plan Essentiel",
-        "programs.plan1.freq": "1-3 s\u00e9ances / semaine",
-        "programs.plan2.label": "Le Plus Complet",
-        "programs.plan2.title": "Plan Intensif",
-        "programs.plan2.freq": "4-6 s\u00e9ances / semaine",
-        "programs.f1": "Programme 100% personnalis\u00e9",
-        "programs.f2": "Suivi 6 jours par semaine",
-        "programs.f3": "Conseils nutritionnels",
-        "programs.f4": "Ajustements illimit\u00e9s du programme",
-        "programs.f5": "Bilans hebdomadaires",
-        "programs.f6": "Plan nutrition complet",
-        "programs.f7": "Bilans & points hebdomadaires",
-        "programs.getPlan": "Choisir ce Plan",
+        "programs.desc": "Obtiens un programme 100% personnalis\u00e9 adapt\u00e9 \u00e0 tes objectifs \u2014 performance HYROX, perte de poids, prise de masse ou pr\u00e9paration concours.",
+        "programs.hyrox.title": "HYROX Online Coaching",
+        "programs.duration.1monthTrial": "1 Mois (test)",
+        "programs.duration.1monthTrialOnly": "1 Mois (test uniquement)",
+        "programs.duration.1month": "1 Mois",
+        "programs.duration.3months": "3 Mois",
+        "programs.duration.6months": "6 Mois",
+        "programs.hyrox.f1": "Application de coaching",
+        "programs.hyrox.f2": "Enti\u00e8rement personnalis\u00e9 selon tes besoins et tes disponibilit\u00e9s",
+        "programs.hyrox.f3": "Communication quotidienne 6j/7",
+        "programs.hyrox.f4": "\u00C9valuation compl\u00e8te des faiblesses de course pr\u00e9c\u00e9dentes et des objectifs",
+        "programs.hyrox.f5": "Analyse des donn\u00e9es de course pour savoir o\u00f9 se concentrer",
+        "programs.hyrox.f6": "Appel bi-mensuel pour recap du programme et adaptation",
+        "programs.hyrox.f7": "Analyse de la map de course + plan de course pr\u00e9cis",
+        "programs.hyrox.f8": "Acc\u00e8s au groupe communautaire YFF ACADEMY (athl\u00e8tes HYROX du monde entier)",
+        "programs.hyrox.f9": "Recommandations en mati\u00e8re de nutrition",
+        "programs.hyrox.f10": "Test mensuel pour suivre les progr\u00e8s",
+        "programs.hyrox.f11": "Modifications illimit\u00e9es du plan (vacances / maladie)",
+        "programs.cta": "C'est Parti !",
+        "programs.online.title": "Programme en Ligne",
+        "programs.online.badge": "Remise en forme / Perte de poids / Masse musculaire / Pr\u00e9pa concours",
+        "programs.online.plan1.freq": "1 \u00e0 3 s\u00e9ances/semaine",
+        "programs.online.plan1.desc": "Chat 7/7J + Nutrition + Modifications illimit\u00e9es",
+        "programs.online.plan2.label": "Le Plus Complet",
+        "programs.online.plan2.freq": "4 \u00e0 7 s\u00e9ances/semaine",
+        "programs.online.plan2.desc": "Chat 7/7J + Conseils nutrition + Modifications illimit\u00e9es",
+        "programs.choosePlan": "Choisir ce Plan",
 
         // About
         "about.tag": "Qui suis-je ?",
         "about.lead": "Un coach port\u00e9 par la passion du fitness et du bien-\u00eatre.",
         "about.p1": "Passionn\u00e9 de sport depuis toujours, cette passion m'a amen\u00e9 \u00e0 \u00e9tudier et travailler dans le domaine de la performance physique et du coaching sportif.",
         "about.p2": "J'ai \u00e9tudi\u00e9 les Sciences du Sport (STAPS) avec une sp\u00e9cialisation en Entra\u00eenement Sportif et Optimisation de la Performance, puis j'ai poursuivi avec une Licence Professionnelle M\u00e9tiers de la Forme. J'ai travaill\u00e9 pr\u00e8s de quatre ans comme coach en salle et \u00e0 domicile.",
-        "about.p3": "D\u00e9sormais install\u00e9 \u00e0 Calgary, je suis l\u00e0 pour t'aider \u00e0 atteindre ton plein potentiel.",
+        "about.p3": "D\u00e9sormais install\u00e9 en France, je suis l\u00e0 pour t'aider \u00e0 atteindre ton plein potentiel.",
         "about.certs": "Certifications & Formation",
 
         // CTA
@@ -213,7 +225,7 @@ const translations = {
         "cta.contact": "Me Contacter",
 
         // Footer
-        "footer.tagline": "Coach Sportif \u00e0 Calgary<br>Coaching Fitness & Pr\u00e9paration Physique",
+        "footer.tagline": "Coach Sportif en France<br>Coaching Fitness & Pr\u00e9paration Physique",
         "footer.quicklinks": "Liens Rapides",
         "footer.getintouch": "Me Contacter"
     }
@@ -252,14 +264,14 @@ function applyTranslations(lang) {
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) {
         metaDesc.content = lang === 'fr'
-            ? "Coach sportif certifi\u00e9 \u00e0 Calgary. Coaching Fitness & Pr\u00e9paration physique \u2014 Coaching Personnel, Cours Collectifs, Programmes Sur-Mesure. Transforme ton corps avec Yohan Plier."
-            : "Certified Personal Trainer in Calgary. Fitness & Conditioning coaching \u2014 Personal Training, Group Training, Custom Programs. Transform your body with Yohan Plier.";
+            ? "Coach sportif certifi\u00e9 en France. Coaching Fitness & Pr\u00e9paration physique \u2014 Coaching Personnel, Cours Collectifs, Programmes Sur-Mesure. Transforme ton corps avec Yohan Plier."
+            : "Certified Personal Trainer in France. Fitness & Conditioning coaching \u2014 Personal Training, Group Training, Custom Programs. Transform your body with Yohan Plier.";
     }
 
     // Update title
     document.title = lang === 'fr'
-        ? "YFF Coaching | Yohan Plier - Coach Sportif Calgary"
-        : "YFF Coaching | Yohan Plier - Personal Trainer Calgary";
+        ? "YFF Coaching | Yohan Plier - Coach Sportif France"
+        : "YFF Coaching | Yohan Plier - Coach Sportif France";
 
     // Update lang switch button
     const flag = document.getElementById('langFlag');
