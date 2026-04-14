@@ -131,14 +131,15 @@ ul {
 }
 
 .nav-logo {
-    font-size: 1.8rem;
-    font-weight: 900;
-    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
 }
 
-.logo-y { color: var(--text-primary); }
-.logo-f { color: var(--accent); }
-.logo-f2 { color: var(--text-primary); }
+.nav-logo-img {
+    height: 32px;
+    width: auto;
+    border-radius: 6px;
+}
 
 .nav-menu {
     display: flex;
@@ -1408,7 +1409,7 @@ section {
 /* --- CTA Section --- */
 #cta {
     position: relative;
-    padding: 140px 0;
+    padding: 80px 0;
     overflow: hidden;
 }
 
@@ -1433,9 +1434,9 @@ section {
 }
 
 .cta-content h2 {
-    font-size: clamp(2rem, 4vw, 3.2rem);
+    font-size: clamp(1.6rem, 3vw, 2.4rem);
     font-weight: 800;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
 }
 
 .cta-content p {
@@ -1549,9 +1550,58 @@ section {
     transform: translateY(0);
 }
 
-/* Stagger animations */
+/* Stagger animations — grids */
 .services-grid .service-card:nth-child(2) { transition-delay: 0.15s; }
 .services-grid .service-card:nth-child(3) { transition-delay: 0.3s; }
+
+.hyrox-stats .hyrox-stat-card:nth-child(2) { transition-delay: 0.15s; }
+.hyrox-stats .hyrox-stat-card:nth-child(3) { transition-delay: 0.3s; }
+
+.hyrox-features .hyrox-feature-card:nth-child(2) { transition-delay: 0.12s; }
+.hyrox-features .hyrox-feature-card:nth-child(3) { transition-delay: 0.24s; }
+.hyrox-features .hyrox-feature-card:nth-child(4) { transition-delay: 0.36s; }
+
+.programs-cards .program-card:nth-child(2) { transition-delay: 0.15s; }
+
+.group-pricing .group-price-card:nth-child(2) { transition-delay: 0.15s; }
+
+.features-list .feature-item:nth-child(2) { transition-delay: 0.12s; }
+.features-list .feature-item:nth-child(3) { transition-delay: 0.24s; }
+
+.program-features-list li:nth-child(2) { transition-delay: 0.05s; }
+.program-features-list li:nth-child(3) { transition-delay: 0.1s; }
+.program-features-list li:nth-child(4) { transition-delay: 0.15s; }
+.program-features-list li:nth-child(5) { transition-delay: 0.2s; }
+.program-features-list li:nth-child(6) { transition-delay: 0.25s; }
+
+.cert-logos .cert-item:nth-child(2) { transition-delay: 0.12s; }
+.cert-logos .cert-item:nth-child(3) { transition-delay: 0.24s; }
+
+/* Slide-in variants */
+.animate-slide-left {
+    opacity: 0;
+    transform: translateX(-60px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.animate-slide-right {
+    opacity: 0;
+    transform: translateX(60px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.animate-scale {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.animate-slide-left.in-view,
+.animate-slide-right.in-view,
+.animate-scale.in-view {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+}
 
 .hero-text .animate-in:nth-child(1) { transition-delay: 0.2s; }
 .hero-text .animate-in:nth-child(2) { transition-delay: 0.4s; }

@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', () => {
         threshold: 0.1
     });
 
-    document.querySelectorAll('.animate-on-scroll').forEach(el => {
+    document.querySelectorAll('.animate-on-scroll, .animate-slide-left, .animate-slide-right, .animate-scale').forEach(el => {
         scrollObserver.observe(el);
     });
 
