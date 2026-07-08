@@ -560,7 +560,8 @@ section {
 }
 
 .service-card {
-    display: block;
+    display: flex;
+    flex-direction: column;
     background: var(--bg-card);
     border: 1px solid var(--border-color);
     border-radius: var(--radius-lg);
@@ -613,6 +614,7 @@ section {
 }
 
 .service-card p {
+    flex: 1;
     color: var(--text-secondary);
     font-size: 0.95rem;
     line-height: 1.7;
