@@ -146,6 +146,45 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // --- Image Lightbox ---
+    const lightbox = document.getElementById('imageLightbox');
+    const lightboxClose = document.getElementById('lightboxClose');
+    const lightboxImage = document.getElementById('lightboxImage');
+
+    function openLightbox(e) {
+        const img = e.currentTarget;
+        lightboxImage.src = img.src;
+        lightboxImage.alt = img.alt;
+        lightbox.classList.add('active');
+        lightbox.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+        lightbox.classList.remove('active');
+        lightbox.setAttribute('aria-hidden', 'true');
+        lightboxImage.src = '';
+        document.body.style.overflow = '';
+    }
+
+    document.querySelectorAll('.stack-main, .stack-secondary').forEach(img => {
+        img.addEventListener('click', openLightbox);
+    });
+
+    if (lightboxClose) lightboxClose.addEventListener('click', closeLightbox);
+
+    if (lightbox) {
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox) closeLightbox();
+        });
+    }
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+            closeLightbox();
+        }
+    });
+
     // --- Scroll Animations (Intersection Observer) ---
     const scrollObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
