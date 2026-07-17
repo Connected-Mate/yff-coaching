@@ -677,6 +677,9 @@ section {
     box-shadow: var(--shadow-lg);
     position: relative;
     z-index: 2;
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
 }
 
 .stack-secondary {
@@ -2236,6 +2239,10 @@ ol.blog-list li::before {
     .split-section {
         grid-template-columns: 1fr;
         gap: 48px;
+    }
+
+    .stack-main {
+        max-height: 360px;
     }
 
     .split-section.reverse .split-image {
