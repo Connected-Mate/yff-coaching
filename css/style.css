@@ -690,6 +690,91 @@ section {
     z-index: 3;
 }
 
+.stack-main,
+.stack-secondary {
+    cursor: zoom-in;
+}
+
+/* --- Image Lightbox --- */
+.lightbox-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 10001;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    padding: 24px;
+}
+
+.lightbox-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.lightbox-content {
+    position: relative;
+    max-width: 90vw;
+    max-height: 90vh;
+    transform: scale(0.96);
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.lightbox-overlay.active .lightbox-content {
+    transform: scale(1);
+}
+
+.lightbox-content img {
+    display: block;
+    max-width: 90vw;
+    max-height: 90vh;
+    width: auto;
+    height: auto;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+}
+
+.lightbox-close {
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    width: 36px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    color: var(--text-secondary);
+    font-size: 1.4rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+    line-height: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.lightbox-close:hover {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+}
+
+@media (max-width: 600px) {
+    .lightbox-close {
+        top: 8px;
+        right: 8px;
+        background: rgba(0, 0, 0, 0.5);
+    }
+}
+
 /* Features List */
 .features-list {
     margin: 32px 0;
@@ -1110,11 +1195,17 @@ section {
 }
 
 .hyrox-cta-logo {
-    height: 36px;
+    height: 56px;
     width: auto;
     padding: 8px 20px;
     background: white;
     border-radius: var(--radius-sm);
+}
+
+@media (max-width: 600px) {
+    .hyrox-cta-logo {
+        height: 44px;
+    }
 }
 
 .hyrox-cta-inner p {
