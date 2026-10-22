@@ -1,0 +1,383 @@
+- generic [active] [ref=f1e1]:
+  - status "Loading" [ref=f1e2]:
+    - img "YFF Coaching Logo" [ref=f1e4]
+  - navigation "Main navigation" [ref=f1e5]:
+    - generic [ref=f1e6]:
+      - link "YFF Coaching - Home" [ref=f1e7] [cursor=pointer]:
+        - /url: "#hero"
+        - img "YFF" [ref=f1e8]
+      - button "Switch language" [ref=f1e10] [cursor=pointer]: EN
+      - menubar [ref=f1e11]:
+        - menuitem "Home" [ref=f1e12] [cursor=pointer]
+        - menuitem "Services" [ref=f1e13] [cursor=pointer]
+        - menuitem "Personal Training" [ref=f1e14] [cursor=pointer]
+        - menuitem "Group Training" [ref=f1e15] [cursor=pointer]
+        - menuitem "HYROX" [ref=f1e16] [cursor=pointer]
+        - menuitem "Programs" [ref=f1e17] [cursor=pointer]
+        - menuitem "Blog" [ref=f1e18] [cursor=pointer]
+        - menuitem "About" [ref=f1e19] [cursor=pointer]
+        - menuitem "Contact Me" [ref=f1e20] [cursor=pointer]
+  - generic [ref=f1e21]:
+    - heading [level=2] [ref=f1e22]: Coach HYROX & Coach Sportif Certifié à Toulouse - YFF Coaching
+    - paragraph [ref=f1e23]: "YFF Coaching (Your Functional Fitness) est dirigé par Yohan Plier, coach HYROX certifié et Ambassadeur HYROX Canada/USA pour les saisons 2024/25 et 25/26. Avec plus de 15 courses HYROX réalisées dans le monde entier et un diplôme en Sciences du Sport (STAPS - Université Paris Descartes), il propose à Toulouse : coaching personnel à domicile, en extérieur ou en salle ; cours collectifs HYROX et Bootcamp à la Prairie des Filtres tous les mercredis à 18h30 ; coaching HYROX en ligne et programmes personnalisés pour remise en forme, perte de poids, prise de masse musculaire et préparation aux concours (pompier, gendarmerie)."
+    - paragraph [ref=f1e24]: "Services disponibles: coach HYROX Toulouse, personal trainer Toulouse, coach sportif Toulouse, préparation HYROX, entraînement HYROX, HYROX Academy, cours collectif HYROX Toulouse, bootcamp Prairie des Filtres, coaching en ligne, programme fitness sur-mesure."
+  - region "TRANSFORM YOUR BODY YOUR LIFE" [ref=f1e25]:
+    - generic [ref=f1e26]:
+      - generic [ref=f1e27]:
+        - paragraph [ref=f1e28]: Coach HYROX • Toulouse
+        - heading "TRANSFORM YOUR BODY YOUR LIFE" [level=1] [ref=f1e29]:
+          - generic [ref=f1e30]: TRANSFORM
+          - generic [ref=f1e31]:
+            - text: YOUR
+            - emphasis [ref=f1e32]: BODY
+          - generic [ref=f1e33]: YOUR LIFE
+        - paragraph [ref=f1e34]: HYROX Certified Coach in Toulouse. HYROX Ambassador Canada/USA, 15+ HYROX races, personal training, group classes & custom programs with Yohan Plier.
+        - generic [ref=f1e35]:
+          - link "Start Today" [ref=f1e36] [cursor=pointer]:
+            - /url: "#"
+          - link "Explore Services" [ref=f1e37] [cursor=pointer]:
+            - /url: "#services"
+        - generic [ref=f1e38]:
+          - generic [ref=f1e39]:
+            - text: 0+
+            - generic [ref=f1e40]: Years Experience
+          - generic [ref=f1e41]:
+            - text: 0+
+            - generic [ref=f1e42]: Clients Trained
+          - generic [ref=f1e43]:
+            - text: "0"
+            - generic [ref=f1e44]: Certifications
+      - img "Yohan Plier, coach HYROX et coach sportif certifié à Toulouse, Ambassadeur HYROX Canada/USA" [ref=f1e47]
+    - link "Scroll to services" [ref=f1e49] [cursor=pointer]:
+      - /url: "#services"
+      - generic [ref=f1e50]: Scroll
+  - region "My Services" [ref=f1e52]:
+    - generic [ref=f1e53]:
+      - generic [ref=f1e54]:
+        - generic [ref=f1e55]: What I Offer
+        - heading "My Services" [level=2] [ref=f1e56]:
+          - text: My
+          - emphasis [ref=f1e57]: Services
+        - paragraph [ref=f1e58]: Whether you want to lose weight, build muscle, or improve your overall fitness, I provide the expertise and motivation you need.
+      - generic [ref=f1e59]:
+        - link "Personal Training" [ref=f1e60] [cursor=pointer]:
+          - /url: "#personal"
+          - heading "Personal Training" [level=3] [ref=f1e62]
+          - paragraph [ref=f1e63]: One-on-one sessions tailored to your specific goals. At home, outdoors, or at the gym.
+          - generic [ref=f1e64]: →
+        - link "Group Training" [ref=f1e65] [cursor=pointer]:
+          - /url: "#group"
+          - heading "Group Training" [level=3] [ref=f1e67]
+          - paragraph [ref=f1e68]: Boot camps, team building, and HYROX classes. Train together, push harder.
+          - generic [ref=f1e69]: →
+        - link "Training Programs" [ref=f1e70] [cursor=pointer]:
+          - /url: "#programs"
+          - heading "Training Programs" [level=3] [ref=f1e72]
+          - paragraph [ref=f1e73]: 100% personalized programs with nutrition guidance and weekly monitoring.
+          - generic [ref=f1e74]: →
+  - region "Personal Training" [ref=f1e75]:
+    - generic [ref=f1e77]:
+      - generic [ref=f1e79]:
+        - img "Séance de coaching personnel en salle de sport avec Yohan Plier, exercice leg press" [ref=f1e80]
+        - img "Coaching personnel TRX avec Yohan Plier, coach HYROX Toulouse" [ref=f1e81]
+      - generic [ref=f1e82]:
+        - generic [ref=f1e83]: One-on-One
+        - heading "Personal Training" [level=2] [ref=f1e84]:
+          - text: Personal
+          - emphasis [ref=f1e85]: Training
+        - paragraph [ref=f1e86]: Want to start fitness?
+        - paragraph [ref=f1e87]: Personal Training offers you the opportunity to master various exercises and training techniques under the close supervision of your coach, regardless of your fitness goals.
+        - paragraph [ref=f1e88]:
+          - strong [ref=f1e89]: Stop wasting time
+          - text: — for optimal results, you require personalized training tailored to your specific needs.
+        - generic [ref=f1e90]:
+          - generic [ref=f1e91]:
+            - img [ref=f1e92]
+            - generic [ref=f1e93]:
+              - heading "Expert Guidance" [level=4] [ref=f1e94]
+              - paragraph [ref=f1e95]: Professional supervision at every step
+          - generic [ref=f1e96]:
+            - img [ref=f1e97]
+            - generic [ref=f1e98]:
+              - heading "Custom Workouts" [level=4] [ref=f1e99]
+              - paragraph [ref=f1e100]: Programs adapted to your body and goals
+          - generic [ref=f1e101]:
+            - img [ref=f1e102]
+            - generic [ref=f1e103]:
+              - heading "Real Results" [level=4] [ref=f1e104]
+              - paragraph [ref=f1e105]: Track your progress with measurable outcomes
+        - generic [ref=f1e106]:
+          - img [ref=f1e107]
+          - generic [ref=f1e110]: At your home, outdoors, or at the gym in Toulouse
+  - region "Group Training" [ref=f1e111]:
+    - generic [ref=f1e113]:
+      - generic [ref=f1e115]:
+        - img "Cours collectif fitness en salle, HYROX & Bootcamp Toulouse avec YFF Coaching" [ref=f1e116]
+        - img "Bootcamp en extérieur à Toulouse, entraînement collectif Prairie des Filtres" [ref=f1e117]
+      - generic [ref=f1e118]:
+        - generic [ref=f1e119]: Train Together
+        - heading "Group Training" [level=2] [ref=f1e120]:
+          - text: Group
+          - emphasis [ref=f1e121]: Training
+        - paragraph [ref=f1e122]: Immerse yourself in an intense and motivating group training experience.
+        - paragraph [ref=f1e123]: With experience in Small Group Training at brands like Keep Cool, Metabolik and F45, plus Team Building work with companies such as Hermès, I bring energy and structure to every session.
+        - generic [ref=f1e124]:
+          - generic [ref=f1e125]:
+            - heading "Custom Group" [level=4] [ref=f1e126]
+            - paragraph [ref=f1e127]: At home / Outdoors / Gym
+            - generic [ref=f1e128]: 15€/person/session
+            - paragraph [ref=f1e129]: Minimum 4 people
+          - generic [ref=f1e130]:
+            - generic [ref=f1e131]: All levels
+            - heading "HYROX / BOOTCAMP" [level=4] [ref=f1e132]
+            - generic [ref=f1e133]: 10€/person
+            - generic [ref=f1e134]:
+              - img [ref=f1e135]
+              - generic [ref=f1e138]: Prairie des Filtres
+            - generic [ref=f1e139]:
+              - img [ref=f1e140]
+              - generic [ref=f1e143]: Every Wednesday at 6:30 PM
+            - paragraph [ref=f1e144]: Max 12 people — Registration required
+        - link "Book a Group Session" [ref=f1e145] [cursor=pointer]:
+          - /url: "#"
+  - region "HYROX Expert" [ref=f1e146]:
+    - generic [ref=f1e147]:
+      - generic [ref=f1e148]:
+        - generic [ref=f1e149]: Specialist
+        - heading "HYROX Expert" [level=2] [ref=f1e150]:
+          - text: HYROX
+          - emphasis [ref=f1e151]: Expert
+        - paragraph [ref=f1e152]: "Coaching all levels: from your first race to the podium!"
+      - generic [ref=f1e153]:
+        - generic [ref=f1e154]:
+          - generic [ref=f1e155]: 15+
+          - paragraph [ref=f1e156]: HYROX races completed worldwide
+        - generic [ref=f1e157]:
+          - img [ref=f1e159]
+          - paragraph [ref=f1e163]:
+            - text: HYROX Ambassador Canada/USA
+            - text: Season 2024/25 & 25/26
+        - generic [ref=f1e164]:
+          - img [ref=f1e166]
+          - paragraph [ref=f1e171]: Dozens of clients coached for their first HYROX race
+      - generic [ref=f1e172]:
+        - generic [ref=f1e173]:
+          - img [ref=f1e175]
+          - heading "15+ Races Worldwide" [level=4] [ref=f1e178]
+          - paragraph [ref=f1e179]: HYROX specialist with over 15 races completed across the globe, bringing real competition experience to your training.
+        - generic [ref=f1e180]:
+          - img [ref=f1e182]
+          - heading "Official Ambassador" [level=4] [ref=f1e184]
+          - paragraph [ref=f1e185]: HYROX Ambassador for Canada/USA, seasons 2024/25 and 25/26. Recognized by HYROX for promoting and developing the sport.
+        - generic [ref=f1e186]:
+          - img [ref=f1e188]
+          - heading "First Race Coaching" [level=4] [ref=f1e193]
+          - paragraph [ref=f1e194]: Coached dozens of athletes through their first HYROX race with personalized preparation and race strategy.
+        - generic [ref=f1e195]:
+          - img [ref=f1e197]
+          - heading "YFF HYROX Academy" [level=4] [ref=f1e200]
+          - paragraph [ref=f1e201]: A structured approach to teach athletes the objectives of each training phase and stimulus for optimal race performance.
+      - generic [ref=f1e203]:
+        - img "HYROX" [ref=f1e204]
+        - paragraph [ref=f1e205]: From your first race to the podium — I coach all levels.
+        - link "Start Your HYROX Journey" [ref=f1e206] [cursor=pointer]:
+          - /url: "#"
+  - region "Training Programs" [ref=f1e207]:
+    - generic [ref=f1e208]:
+      - generic [ref=f1e209]:
+        - generic [ref=f1e210]: Online Coaching
+        - heading "Training Programs" [level=2] [ref=f1e211]:
+          - text: Training
+          - emphasis [ref=f1e212]: Programs
+        - paragraph [ref=f1e213]: Get a 100% personalized training program tailored to your goals — whether it's HYROX performance, weight loss, muscle building, or competition preparation.
+      - generic [ref=f1e214]:
+        - generic [ref=f1e215]:
+          - heading "HYROX Online Coaching" [level=3] [ref=f1e216]
+          - generic [ref=f1e217]: HYROX SPECIFIC
+        - generic [ref=f1e219]:
+          - generic [ref=f1e220]:
+            - generic [ref=f1e221]: 1 Month (trial)
+            - generic [ref=f1e222]: 110€
+          - generic [ref=f1e223]:
+            - generic [ref=f1e224]: 3 Months
+            - generic [ref=f1e225]: 315€
+          - generic [ref=f1e226]:
+            - generic [ref=f1e227]: 6 Months
+            - generic [ref=f1e228]: 595€
+        - list "HYROX coaching features" [ref=f1e229]:
+          - listitem [ref=f1e230]:
+            - img [ref=f1e231]
+            - generic [ref=f1e233]: Coaching application
+          - listitem [ref=f1e234]:
+            - img [ref=f1e235]
+            - generic [ref=f1e237]: Fully personalized to your needs and availability
+          - listitem [ref=f1e238]:
+            - img [ref=f1e239]
+            - generic [ref=f1e241]: Daily communication 6/7 days
+          - listitem [ref=f1e242]:
+            - img [ref=f1e243]
+            - generic [ref=f1e245]: Complete assessment of previous race weaknesses and objectives
+          - listitem [ref=f1e246]:
+            - img [ref=f1e247]
+            - generic [ref=f1e249]: Race data analysis to know where to focus
+          - listitem [ref=f1e250]:
+            - img [ref=f1e251]
+            - generic [ref=f1e253]: Bi-weekly call for program recap and adaptation
+          - listitem [ref=f1e254]:
+            - img [ref=f1e255]
+            - generic [ref=f1e257]: Race map analysis + precise race plan
+          - listitem [ref=f1e258]:
+            - img [ref=f1e259]
+            - generic [ref=f1e261]: Access to YFF ACADEMY community group (worldwide HYROX athletes)
+          - listitem [ref=f1e262]:
+            - img [ref=f1e263]
+            - generic [ref=f1e265]: Nutrition recommendations
+          - listitem [ref=f1e266]:
+            - img [ref=f1e267]
+            - generic [ref=f1e269]: Monthly test to track progress
+          - listitem [ref=f1e270]:
+            - img [ref=f1e271]
+            - generic [ref=f1e273]: Unlimited plan modifications (holidays / illness)
+        - link "Get Started" [ref=f1e274] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=f1e275]:
+        - generic [ref=f1e276]:
+          - heading "Online Programming" [level=3] [ref=f1e277]
+          - generic [ref=f1e278]: Fitness / Weight Loss / Muscle / Competition Prep
+        - generic [ref=f1e279]:
+          - generic [ref=f1e280]:
+            - generic [ref=f1e281]: Best Seller
+            - heading "1 to 3 sessions/week" [level=3] [ref=f1e282]
+            - paragraph [ref=f1e283]: Chat 7/7 + Nutrition + Unlimited modifications
+            - generic [ref=f1e284]:
+              - generic [ref=f1e285]:
+                - generic [ref=f1e286]: 1 Month (trial only)
+                - generic [ref=f1e287]: 100€
+              - generic [ref=f1e288]:
+                - generic [ref=f1e289]: 3 Months
+                - generic [ref=f1e290]: 250€
+              - generic [ref=f1e291]:
+                - generic [ref=f1e292]: 6 Months
+                - generic [ref=f1e293]: 485€
+            - link "Choose This Plan" [ref=f1e294] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=f1e295]:
+            - generic [ref=f1e296]: Most Complete
+            - heading "4 to 7 sessions/week" [level=3] [ref=f1e297]
+            - paragraph [ref=f1e298]: Chat 7/7 + Nutrition advice + Unlimited modifications
+            - generic [ref=f1e299]:
+              - generic [ref=f1e300]:
+                - generic [ref=f1e301]: 1 Month
+                - generic [ref=f1e302]: 110€
+              - generic [ref=f1e303]:
+                - generic [ref=f1e304]: 3 Months
+                - generic [ref=f1e305]: 285€
+              - generic [ref=f1e306]:
+                - generic [ref=f1e307]: 6 Months
+                - generic [ref=f1e308]: 550€
+            - link "Choose This Plan" [ref=f1e309] [cursor=pointer]:
+              - /url: "#"
+  - region "Yohan Plier" [ref=f1e310]:
+    - generic [ref=f1e312]:
+      - generic [ref=f1e314]:
+        - img "Yohan Plier finisher Spartan Race, coach HYROX et course d'obstacles" [ref=f1e315]
+        - img "Consultation fitness personnalisée avec Yohan Plier, coach sportif Toulouse" [ref=f1e316]
+      - generic [ref=f1e317]:
+        - generic [ref=f1e318]: Who Am I?
+        - heading "Yohan Plier" [level=2] [ref=f1e319]:
+          - text: Yohan
+          - emphasis [ref=f1e320]: Plier
+        - paragraph [ref=f1e321]: A coach driven by passion for fitness and well-being.
+        - paragraph [ref=f1e322]: I've loved sports since I was young, and that passion led me to study and work in the field of physical performance and sports coaching.
+        - paragraph [ref=f1e323]: I studied Sports Science (STAPS) with a specialization in Sports Training and Performance Optimization, then pursued a Bachelor's degree in Fitness Professions. I've worked for nearly four years as a coach in gyms and at home.
+        - paragraph [ref=f1e324]: Now based in Toulouse, I'm here to help you reach your full potential.
+        - generic [ref=f1e325]:
+          - heading "Certifications & Education" [level=4] [ref=f1e326]
+          - generic [ref=f1e327]:
+            - img "Licence STAPS Sciences du Sport - Université Paris Descartes" [ref=f1e329]
+            - img "Certification CrossFit Level 1 Trainer - Yohan Plier" [ref=f1e331]
+            - img "HYROX Certified Coach - Ambassadeur HYROX Canada/USA" [ref=f1e333]
+  - region "Latest Articles" [ref=f1e334]:
+    - generic [ref=f1e335]:
+      - generic [ref=f1e336]:
+        - generic [ref=f1e337]: Blog
+        - heading "Latest Articles" [level=2] [ref=f1e338]:
+          - text: Latest
+          - emphasis [ref=f1e339]: Articles
+        - paragraph [ref=f1e340]: Tips, guides, and insights on HYROX, fitness, and performance coaching.
+      - generic [ref=f1e341]:
+        - 'link "HYROX Finish Time - YFF athlete at HYROX Nice HYROX April 14, 2026 • 5 min read HYROX: What is it? A complete introduction to HYROX — the World Series of Fitness Racing. Discover the format, the stations, and why millions of athletes worldwide are joining the movement. Read article →" [ref=f1e342] [cursor=pointer]':
+          - /url: blog/hyrox-what-is-it.html
+          - generic [ref=f1e343]:
+            - img "HYROX Finish Time - YFF athlete at HYROX Nice" [ref=f1e344]
+            - generic [ref=f1e345]: HYROX
+          - generic [ref=f1e346]:
+            - generic [ref=f1e347]:
+              - generic [ref=f1e348]: April 14, 2026
+              - generic [ref=f1e349]: •
+              - generic [ref=f1e350]: 5 min read
+            - 'heading "HYROX: What is it?" [level=3] [ref=f1e351]'
+            - paragraph [ref=f1e352]: A complete introduction to HYROX — the World Series of Fitness Racing. Discover the format, the stations, and why millions of athletes worldwide are joining the movement.
+            - text: Read article →
+        - generic [ref=f1e354]:
+          - img [ref=f1e355]
+          - heading "More articles coming soon" [level=4] [ref=f1e358]
+          - paragraph [ref=f1e359]: Training guides, race preparation, nutrition tips and more.
+  - region "Ready to Transform?" [ref=f1e360]:
+    - generic [ref=f1e364]:
+      - heading "Ready to Transform?" [level=2] [ref=f1e365]:
+        - text: Ready to
+        - emphasis [ref=f1e366]: Transform
+        - text: "?"
+      - paragraph [ref=f1e367]: Take the first step towards a healthier, stronger you. Let's build your fitness journey together.
+      - generic [ref=f1e368]:
+        - link "Contact Me Now" [ref=f1e369] [cursor=pointer]:
+          - /url: "#"
+        - link "Instagram" [ref=f1e370] [cursor=pointer]:
+          - /url: https://www.instagram.com/yofirefit
+          - img [ref=f1e371]
+          - text: Instagram
+  - contentinfo "Site footer" [ref=f1e374]:
+    - generic [ref=f1e375]:
+      - generic [ref=f1e376]:
+        - generic [ref=f1e377]:
+          - generic:
+            - img "YFF - Your Functional Fitness"
+          - paragraph [ref=f1e378]:
+            - text: Coach Sportif à Toulouse
+            - text: Fitness & Conditioning Coaching
+          - generic [ref=f1e379]:
+            - link "Follow YFF Coaching on Instagram" [ref=f1e380] [cursor=pointer]:
+              - /url: https://www.instagram.com/yofirefit
+              - img [ref=f1e381]
+            - link "Contact on WhatsApp" [ref=f1e384] [cursor=pointer]:
+              - /url: https://wa.me/+33750355310
+              - img [ref=f1e385]
+        - generic [ref=f1e387]:
+          - heading "Quick Links" [level=4] [ref=f1e388]
+          - navigation "Footer navigation" [ref=f1e389]:
+            - list [ref=f1e390]:
+              - listitem [ref=f1e391]:
+                - link "Personal Training" [ref=f1e392] [cursor=pointer]:
+                  - /url: "#personal"
+              - listitem [ref=f1e393]:
+                - link "Group Training" [ref=f1e394] [cursor=pointer]:
+                  - /url: "#group"
+              - listitem [ref=f1e395]:
+                - link "HYROX" [ref=f1e396] [cursor=pointer]:
+                  - /url: "#hyrox"
+              - listitem [ref=f1e397]:
+                - link "Programs" [ref=f1e398] [cursor=pointer]:
+                  - /url: "#programs"
+              - listitem [ref=f1e399]:
+                - link "Blog" [ref=f1e400] [cursor=pointer]:
+                  - /url: "#blog"
+              - listitem [ref=f1e401]:
+                - link "About" [ref=f1e402] [cursor=pointer]:
+                  - /url: "#about"
+        - generic [ref=f1e403]:
+          - heading "Get In Touch" [level=4] [ref=f1e404]
+          - paragraph [ref=f1e405]: Toulouse, 31000, France
+          - link "Contact Me" [ref=f1e406] [cursor=pointer]:
+            - /url: "#"
+      - paragraph [ref=f1e408]: © 2026 YFF Coaching — Yohan Plier. All rights reserved.
